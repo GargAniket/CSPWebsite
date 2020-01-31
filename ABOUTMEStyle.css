@@ -5,15 +5,15 @@
 }
 
 header{
-  background-image:linear-gradient(#33ccff, #ff99cc);
+  background-image:linear-gradient(#8c4ccd, #ffffff);
   background-size: cover;
   color: #fff;
   background-position: center;
-  padding: 300px;
+  padding: 150px;
 }
 
 ul{
-  margin-top: 30px;
+  margin-top: -105px;
   float: center;
   position: absolute;
   left: 50%;
@@ -49,7 +49,7 @@ ui li.active a{
 
 .title{
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%,-50%);
 }

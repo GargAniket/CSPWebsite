@@ -5,11 +5,10 @@
 }
 
 header{
-  background-color: #000046;
   background-image:linear-gradient(#33ccff, #ff99cc);
   background-size: cover;
   color: #fff;
-  background-size: cover;
+  padding: 300px;
 }
 
 ul{

@@ -1,31 +1,18 @@
 <!doctype html>
 <html lang="en">
-  <body style="background-color:Azure">
-
-    <center>
-      <h1>Welcome to My Website</h1>
-      <p>If you say Uganda really quickly, it sounds like Uganda</p>
-    <p>If your'e too lazy to check your phone, click the button to get your coordinates.</p>
-    <button onclick="getLocation()">Try It</button>
-
-    <p id="demo"></p>
-
-    <script>
-    var x = document.getElementById("demo");
-
-    function getLocation() {
-      if (navigator.geolocation) {
-        navigator.geolocation.watchPosition(showPosition);
-      } else { 
-        x.innerHTML = "Geolocation is not supported by this browser.";
-      }
-    }
-    
-    function showPosition(position) {
-        x.innerHTML="Latitude: " + position.coords.latitude + 
-        "<br>Longitude: " + position.coords.longitude;
-    }
-    </script>
-    </center>
-  </body>
+<head>
+  <title>ANIKET'S WEBSITE</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="main">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT ME</a></li>
+          <li><a href="#">PORTFOLIO</a></li>
+        </ul>
+      </div>
+    </header>
+</body>
 </html>

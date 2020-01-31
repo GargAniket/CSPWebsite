@@ -3,7 +3,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: Quicksand;
+  font-family: 'Quicksand';
 }
 
 header{
@@ -15,7 +15,7 @@ header{
 }
 
 ul{
-  margin-top: -105px;
+  margin-top: -115px;
   float: center;
   position: absolute;
   left: 50%;
@@ -51,7 +51,7 @@ ui li.active a{
 
 .title{
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
@@ -63,5 +63,6 @@ ui li.active a{
 
 .paragraph2{
   color: #000000;
-  font-size: 35px;
+  font-size: 20px;
 }
+

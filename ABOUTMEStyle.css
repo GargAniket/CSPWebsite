@@ -58,12 +58,16 @@ ui li.active a{
 
 .title h1{
   color: #fff;
-  font-size: 80px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  font-size: 78px;
+  margin-bottom: 15px;
 }
 
-.PROJECTS{
+footer{
+  font-size: 10px;
   color: #fff;
-  font-size: 15px;
+  margin-top: 300px;
+  display: block;
+  width: 1270px;
+  height: 80px;
+  background: #000;
 }

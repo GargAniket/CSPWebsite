@@ -5,15 +5,16 @@
 }
 
 header{
-  background-image:linear-gradient(#7f00ff, #0089ff);
+  background-image:linear-gradient(#b367ff, #2076c1);
   background-size: cover;
   color: #fff;
   background-position: center;
-  padding: 140px;
+  padding: 120px;
+  margin-bottom: 30px;
 }
 
 ul{
-  margin-top: -115px;
+  margin-top: -105px;
   float: center;
   position: absolute;
   left: 50%;
@@ -28,7 +29,7 @@ ul li a{
   text-decoration: none;
   color: #fff;
   padding: 5px 20px;
-  border: 1px solid transparent;
+  border: 10px solid transparent;
   transition: 0.6s ease;
 }
 
@@ -43,8 +44,8 @@ ui li.active a{
 }
 
 .main{
-  max-width: 1200px;
-  margin: auto;
+  max-width: 500px;
+  margin: 10px;
 }
 
 .title{
@@ -52,14 +53,22 @@ ui li.active a{
   top: auto;
   left: 50%;
   transform: translate(-50%,-50%);
+  margin-top: 20px;
 }
 
 .title h1{
   color: #fff;
-  font-size: 77px;
+  font-size: 80px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
+.paragraph1{
+  color: #fff;
+  font-size: 15px;
+}
 .paragraph2{
   color: #000000;
   font-size: 15px;
 }
+
